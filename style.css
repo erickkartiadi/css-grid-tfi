@@ -52,9 +52,18 @@ option {
   text-align: center;
 }
 
+.nav ul li {
+  margin-block: 0.5rem;
+}
+
 .nav ul a {
+  font-size: 1.25rem;
   text-decoration: none;
   color: white;
+}
+
+.text-underline {
+  text-decoration: underline !important;
 }
 
 section.about-me {
@@ -111,4 +120,48 @@ section.experience > h1 {
 .box > p {
   font-size: 1.25rem;
   margin: 0;
+}
+
+section.contact {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+}
+
+img.profile {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center center;
+  width: 16rem;
+  border-radius: 50%;
+}
+
+section.contact > h1 {
+  font-weight: bold;
+  margin-top: 2.5rem;
+}
+
+.social-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.social-container a {
+  text-align: center;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.btn {
+  margin-top: 1.5rem;
+  padding: 1rem 1.125rem;
+  background-color: var(--primary);
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 0.875rem;
 }
