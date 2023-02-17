@@ -81,3 +81,34 @@ section.about-me > p {
   padding-block: 1rem;
   color: white;
 }
+
+.grid-container {
+  height: 100vh;
+  padding-inline: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section.experience > h1 {
+  margin-bottom: 3rem;
+}
+
+.box {
+  margin-block: 2rem;
+}
+
+.box span {
+  font-size: 1.15rem;
+  color: var(--primary);
+}
+
+.box > h2 {
+  margin: 0;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.box > p {
+  font-size: 1.25rem;
+  margin: 0;
+}
