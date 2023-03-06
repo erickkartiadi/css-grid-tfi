@@ -1,0 +1,85 @@
+:root {
+  --primary: #1e91e1;
+}
+
+html,
+body,
+form,
+fieldset,
+table,
+tr,
+td,
+img {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+input,
+button,
+select,
+textarea,
+optgroup,
+option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.navigation-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20rem auto;
+}
+
+.nav {
+  background-color: var(--primary);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.nav ul {
+  all: unset;
+  list-style: none;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  /* flex */
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
+}
+
+.nav ul li {
+  margin-block: 0.5rem;
+}
+
+.nav ul a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+}
+
+section.about-me {
+  display: grid;
+  place-content: center;
+  padding-inline: 8rem;
+  text-align: center;
+}
+
+div.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin-top: 3rem;
+}
+
+.skills-container > span {
+  background-color: var(--primary);
+  padding-block: 1rem;
+  color: white;
+}
